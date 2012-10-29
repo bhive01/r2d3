@@ -3,7 +3,7 @@
 json <- function(x, ...) toJSON(compact_rec(as.list(x, ...)))
 
 #' @S3method as.list proto
-as.list.proto <- function(x, ...) x$as.list(...)
+#as.list.proto <- function(x, ...) x$as.list(...)
 
 # @examples
 # as.list(scale_x_continuous())
